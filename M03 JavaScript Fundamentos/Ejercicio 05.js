@@ -9,9 +9,11 @@ function esPositivo(num) {
    // Si el número es 0, devuelve false.
    // Tu código:
    if (num > 0){
-      console.log ('Es positivo');
+      var POS = ('Es positivo');
+      return POS;
    } else if (num < 0){
-      console.log('Es negativo');
+      var NEG = ('Es negativo');
+      return NEG;
    } else return false;
 }
 
@@ -75,15 +77,17 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if (letra === 'a'){
-      console.log ('Es vocal');
+      return 'Es vocal';
    } else if (letra === "e") {
-      console.log ("Es vocal");
+      var e = ("Es vocal");
+      return e;
    } else if (letra === "i"){
-      console.log("Es vocal");
+      return "Es vocal";
    } else if (letra === "o"){
-      console.log("Es vocal");
+      var o = ("Es vocal");
+      return o;
    } else if (letra === "u"){
-      console.log("Es vocal");
+      return "Es vocal";
    } else return 'Dato incorrecto';
 }
 
